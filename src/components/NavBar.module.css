@@ -1,0 +1,55 @@
+.navbar {
+  width: 100%;
+  background-color: var(--color-main);
+  color: var(--color-white);
+  padding: 2rem 2rem;
+  box-sizing: border-box;
+}
+
+.navbar ul {
+  display: flex;
+  margin: 0 auto;
+  max-width: 96rem;
+  align-items: center;
+}
+
+.title {
+  margin-right: auto;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  font-size: 1.6rem;
+}
+
+@media screen and(max-width: 18.75em) {
+  .title {
+    font-size: 1.2rem !important;
+  }
+}
+
+.btn_nav {
+  width: 100%;
+  min-height: 2.2rem;
+  background: none;
+  border: 0.2rem solid var(--color-white);
+  padding: 0.6rem 1.2rem;
+  border-radius: 0.4rem;
+  color: var(--color-white);
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1.6rem;
+}
+.btn_nav:hover {
+  background: var(--color-white);
+  color: var(--color-main);
+}
+
+.navbar button,
+.navbar a {
+  margin-left: 1.6rem;
+  margin-right: 0;
+}
+
+.navbar a {
+  color: var(--color-white);
+  text-decoration: none;
+}

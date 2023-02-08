@@ -1,0 +1,120 @@
+.container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  max-width: 96rem;
+  margin: 6rem auto;
+}
+
+@media screen and (max-width: 50em) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+  .transactions li {
+    margin-inline: auto;
+  }
+
+  .content {
+    padding-left: 3rem !important;
+    padding-right: 3rem !important;
+  }
+
+  .sidebar {
+    padding: 3rem !important;
+  }
+}
+
+.content {
+  padding-right: 3rem;
+}
+
+.sidebar {
+  padding-left: 3rem;
+}
+
+.sidebar form {
+  padding: 2rem;
+  background: var(--color-main);
+  border-radius: 1rem;
+}
+
+.sidebar input,
+.sidebar select {
+  outline: none;
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  margin-top: 0.8rem;
+  box-sizing: border-box;
+  border: 0;
+}
+
+.sidebar label {
+  margin: 0 auto 2rem;
+  display: block;
+  color: #fff;
+}
+
+.sidebar button {
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 0.6rem 1.2rem;
+  background-color: transparent;
+  font-size: 1.6rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+}
+
+.sidebar h3 {
+  color: var(--color-main);
+  margin-bottom: 2rem;
+}
+
+.sidebar aside {
+  margin-top: 4rem;
+  color: #444;
+}
+
+.sidebar aside {
+  margin: 1rem;
+}
+
+.transactions li {
+  margin: 3rem auto;
+  border: 1px solid #f2f2f2;
+  box-shadow: 0.4rem 0.4rem 0.4rem rgba(65, 65, 65, 0.2);
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  border-radius: 0.5rem;
+  position: relative;
+  overflow: hidden;
+  color: var(--color-white);
+  background-color: var(--color-main);
+}
+.transactions .name {
+  color: var(--color-white);
+}
+
+.transactions .amount {
+  margin-left: auto;
+  margin-right: 4rem;
+  color: var(--color-white);
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+.transactions button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: var(--color-main);
+  color: var(--color-white);
+  border: none;
+  padding: 1.2rem 0.8rem;
+  text-align: center;
+  line-height: 0;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
