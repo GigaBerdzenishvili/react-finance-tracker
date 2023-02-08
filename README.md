@@ -5,6 +5,8 @@
 
 This application is for tracking personal expenses, built using Vite, React, CSS Modules, Firebase, Firebase Authentication, Firebase Firestore, React Router, and React Context.
 
+- Live URL: https://react-finance-tracker-f5135.firebaseapp.com/
+
 ## Features
 
 - User sign-up and login using Firebase Authentication
@@ -29,7 +31,7 @@ This application is for tracking personal expenses, built using Vite, React, CSS
 - Clone the repository and install the dependencies:
 
 ```
-git clone https://github.com/[your-username]/finance-tracker.git
+git clone https://github.com/GigaBerdzenishvili/react-finance-tracker.git
 ```
 ```
 cd finance-tracker
